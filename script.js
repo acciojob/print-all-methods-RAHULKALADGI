@@ -1,6 +1,7 @@
 //your JS code here. If required.
 function allMethods() {
-  //write your code here
+  let a = Object.getOwnPropertyNames(Math);
+	return a
 }
 
 alert(allMethods());
